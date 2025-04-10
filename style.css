@@ -1,0 +1,104 @@
+.navbar {
+    background-color: #333;
+    color: white;
+    width:100px;
+    height: 90vh;
+    padding-top: 20px;
+    position: fixed;
+}
+.navbar nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.navbar nav ul li {
+    margin: 20px 0;
+}
+.navbar nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display:block;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+/* Barre de menu */
+.menu {
+    background-color: #444444;
+    color: white;
+    width:1000px;
+    }
+    .navbar nav ul li a:hover{
+background-color:#575757;
+    padding: 5px 0;
+    margin-top: 10px; /* Pour ne pas chevaucher la barre de navigation */
+}
+.menu ul {
+    list-style: none;
+    margin: 100;
+    padding: 100;
+    text-align: center;
+}
+.menu ul li {
+    display: inline;
+    margin: 0 20px;
+}
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+}
+/* Contenu principal */
+main {
+    padding-top: 120px; /* Pour s'assurer que le contenu principal ne soit pas caché sous la barre de navigation */
+    text-align: center;
+    padding: 20px;
+}
+/* Pied de page */
+.footer {
+    background-color: #33333333;
+    color: red;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 12;
+    width: 97%;
+}
+
+p{
+color:black;
+font-size:18px
+}
+div{
+  width:500px;
+  border:2px solid black;
+}
+.gojo {
+position: absolute;
+top: 150px;
+left: 888px;
+width:250px;
+border:none;
+}     
+.pdiv{
+width:400px;
+height:30px;
+text-align:right;
+}
+.dandadan{
+position: relative;
+top: 50px;
+left: 250px;
+}
+p{
+ text-align:center;
+}
+.ustify{
+position: relative;
+width:800px;
+height:600px;
+top: 100px;
+left: 290px;
+border:none;
+}
